@@ -126,6 +126,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 #featured-header{
     font-size: 38px;
