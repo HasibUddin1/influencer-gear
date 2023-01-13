@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    padding: 0 50px;
+    padding: 0 120px;
 }
 *{
     margin: 0px;
@@ -16,11 +16,15 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+#header-influencer{
+    color: #3A3A3A;
+}
 .header-right ul{
     display: flex;
     gap: 20px;
 }
 .header-right li{
+    color: #3A3A3A;
     list-style: none;
 }
 #header-influencer{
@@ -32,9 +36,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 .camera-para{
     margin-bottom: 16px;
+    color: #3A3A3A;
 }
 #camera-text-btn{
     background-color: #E02C6D;
@@ -47,7 +53,9 @@ body{
     font-size: 52px;
     font-weight: 700;
     margin-bottom: 16px;
+    color: #3A3A3A;
 }
 .add-camera{
     background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
 }
