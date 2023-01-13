@@ -2,14 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    padding: 0 50px;
+}
+*{
+    margin: 0px;
 }
 
 /* Header Section */
 .header{
+    margin-top: 87px;
+    margin-bottom: 145px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
 }
 .header-right ul{
     display: flex;
@@ -17,4 +22,32 @@ body{
 }
 .header-right li{
     list-style: none;
+}
+#header-influencer{
+    font-size: 24px;
+    font-weight: 700;
+}
+/* Camera Section */
+.camera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.camera-para{
+    margin-bottom: 16px;
+}
+#camera-text-btn{
+    background-color: #E02C6D;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+#camera-head{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.add-camera{
+    background-image: url('../images/Circle\ design.svg');
 }
